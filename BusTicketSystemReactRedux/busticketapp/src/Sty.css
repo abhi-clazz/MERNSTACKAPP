@@ -1,0 +1,75 @@
+:root {
+  --color-off-white: 240, 18%, 97%;
+  --color-purple: 239, 39%, 45%;
+  --color-light-purple: 240, 52%, 94%;
+  --color-orange: 13, 94%, 66%;
+  --color-dark-orange: 13, 94%, 46%;
+  --font-weight-normal: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+
+.bookbus {
+  border-radius: 1rem;
+  display: flex;
+  box-shadow: 0 0 0.1rem HSLA(var(--color-purple), 0.1);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+}
+.busticket {
+  border-radius: 100%;
+  
+  overflow: hidden;
+  flex: 0 1 5rem;
+  border: 0.2rem solid rgb(98, 109, 139);
+}
+.busticket + .busticket {
+  position: relative;
+  top: -1.5rem;
+}
+.somee
+{
+  color: HSL(var(--color-purple));
+}
+
+.busdatamember:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.arr {
+  margin-right: 3rem;
+  text-align: right;
+}
+.operatingroute {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.seat {
+  margin-top: 1rem;
+}
+.bookbusPerform {
+  text-align: center;
+}
+ 
+.traveltime {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  font-size: 2rem;
+  font-weight: var(--font-weight-medium);
+}
+.place {
+  margin-bottom: 0.4rem;
+}
+.travelday {
+  font-size: 1.4rem;
+}
+
+
